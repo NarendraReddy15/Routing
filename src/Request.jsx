@@ -11,13 +11,13 @@ function Request(){
     
     <div className="m-auto w-[400px] mt-6">
      <h1 className="text-black text-bold text-xl">
-      Request page
+      Your Requests
      </h1>
      <p className="text-sm">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque ab sint inventore similique iusto, repellat incidunt nihil eveniet quis.
      </p>
       {
-      Data.map(item=> <Card img={item.img} name={item.name} prof={item.profession}  />)
+      Data.map(item=> <Card img={item.img} name={item.name} prof={item.profession} username={item.username} />)
       }
     </div>
 

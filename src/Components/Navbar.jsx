@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+
 function Navbar() {
   return (
     <div className="border-b py-3 sticky top-0 bg-white">
@@ -33,4 +34,4 @@ Request page
   )
 }
 
-export default Navbar
+export default Navbar;
